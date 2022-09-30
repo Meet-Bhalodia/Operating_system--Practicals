@@ -1,0 +1,6 @@
+echo "Enter number to print numbers"
+read n 
+for i in $(seq 1 $n)
+do
+    printf "$i \n"
+done

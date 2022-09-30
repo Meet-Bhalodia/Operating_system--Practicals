@@ -1,0 +1,9 @@
+echo "Enter number to find factorial :- "
+read n 
+echo "Factorial is : -"
+for i in $(seq 1 $n)
+do
+    fact=$((fact*i))
+    n=$((n-1))
+done
+echo $fact
